@@ -4,8 +4,8 @@
 name: Node.js API Test
 
 on:
-  push:
-    branches: [ "main" ]
+  pull_request:
+    branches: [ "dev" ]
 
 jobs:
   build:
