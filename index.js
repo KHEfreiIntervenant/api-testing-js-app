@@ -51,7 +51,7 @@ app.put('/rooms/:id', async (req, res) => {
     }
 });
 
-// Delete a Hotel Room
+// Delete a Hotel Room some extra comments
 app.delete('/rooms/:id', async (req, res) => {
     try {
         const room = await HotelRoom.findByIdAndDelete(req.params.id);
